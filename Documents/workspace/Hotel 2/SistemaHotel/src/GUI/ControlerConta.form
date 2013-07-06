@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      <Component id="btnValorHospedagem" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtValorHospedagem" min="-2" pref="147" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblDataEntrada" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtDataSaida" min="-2" pref="104" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="lblA" min="-2" pref="78" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtDataEntrada" min="-2" pref="100" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="btnDeletar" min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnMenu" max="32767" attributes="0"/>
+                          <Component id="btnAtualizar" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnBuscar" max="32767" attributes="0"/>
+                          <Component id="btnSair" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="236" max="-2" attributes="0"/>
+                      <Component id="lblPeriodoHospedagem" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblConta" min="-2" pref="237" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="lblCodigo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtCodigo" min="-2" pref="85" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="txtProduto" min="-2" pref="234" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="btnCadastrar" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnValorConsumo" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtValorConsumo" pref="102" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblProduto" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtQuantidadeProduto" min="-2" pref="37" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="btnValorTotal" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtValorTotal" min="-2" pref="122" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtServico" min="-2" pref="203" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="lblServico" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtQuantidadeServico" min="-2" pref="32" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCodigo" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="txtCodigo" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="lblConta" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="lblPeriodoHospedagem" min="-2" pref="36" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDataEntrada" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="txtDataSaida" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="lblA" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="txtDataEntrada" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnValorHospedagem" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="txtValorHospedagem" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnValorConsumo" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="txtValorConsumo" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="btnValorTotal" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="txtValorTotal" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblServico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtQuantidadeProduto" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="txtQuantidadeServico" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtProduto" min="-2" pref="112" max="-2" attributes="0"/>
+                  <Component id="txtServico" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnBuscar" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="btnAtualizar" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="btnCadastrar" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnDeletar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="btnMenu" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="btnSair" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblConta">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Registro de Conta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCodigo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCodigo">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnValorHospedagem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/CalcularConsumo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Valor Hospedagem"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorHospedagem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="R$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDataEntrada">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="      /    /"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDataSaida">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="     /    /"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDataEntrada">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Data Entrada"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblA">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Data Saida"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPeriodoHospedagem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Per&#xed;odo Hospedagem "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnValorConsumo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/CalcularConsumo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Valor Consumo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorConsumo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="R$"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnValorTotal">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/CalcularConsumo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Valor Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorTotal">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="R$"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="cc" green="0" red="0" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCadastrar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/cadastrar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadastrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAtualizar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/atualizar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Atualizar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/buscar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDeletar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/deletar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Deletar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMenu">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/menuPrincipal.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Menu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSair">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagem/sair.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblProduto">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Produto Consumido:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblServico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Servi&#xe7;o Utilizado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtProduto">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuantidadeProduto">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuantidadeServico">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtServico">
+    </Component>
+  </SubComponents>
+</Form>
